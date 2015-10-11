@@ -1,7 +1,7 @@
 'use strict';
 
-var invariant = require('react/lib/invariant');
-var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
+var invariant = require('fbjs/lib/invariant');
+var canUseDOM = require('fbjs/lib/ExecutionEnvironment').canUseDOM;
 
 var History = {
 

@@ -2,8 +2,8 @@
 'use strict';
 
 var React = require('react');
-var assign = require('react/lib/Object.assign');
-var warning = require('react/lib/warning');
+var assign = require('object-assign');
+var warning = require('fbjs/lib/warning');
 var DefaultRoute = require('./components/DefaultRoute');
 var NotFoundRoute = require('./components/NotFoundRoute');
 var Redirect = require('./components/Redirect');

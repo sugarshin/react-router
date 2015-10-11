@@ -2,9 +2,9 @@
 'use strict';
 
 var React = require('react');
-var warning = require('react/lib/warning');
-var invariant = require('react/lib/invariant');
-var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
+var warning = require('fbjs/lib/warning');
+var invariant = require('fbjs/lib/invariant');
+var canUseDOM = require('fbjs/lib/ExecutionEnvironment').canUseDOM;
 var LocationActions = require('./actions/LocationActions');
 var ImitateBrowserBehavior = require('./behaviors/ImitateBrowserBehavior');
 var HashLocation = require('./locations/HashLocation');

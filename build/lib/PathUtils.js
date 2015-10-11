@@ -1,6 +1,6 @@
 'use strict';
 
-var invariant = require('react/lib/invariant');
+var invariant = require('fbjs/lib/invariant');
 var assign = require('object-assign');
 var qs = require('qs');
 
